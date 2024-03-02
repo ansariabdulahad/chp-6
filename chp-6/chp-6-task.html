@@ -10,7 +10,42 @@
 
 <body>
 
-    
+    <div class="main">
+        <div class="left-box">
+            <div class="button-main">
+                <h3>IMAGE CONTROL</h3>
+                <button onclick="startImageAnimation()">START IMAGE</button>
+                <button onclick="stopImageAnimation()">STOP IMAGE</button>
+            </div>
+            <div class="button-main">
+                <h3>COLOR CONTROL</h3>
+                <button onclick="startColorAnimation()">START COLOR</button>
+                <button onclick="stopColorAnimation()">STOP COLOR</button>
+            </div>
+            <div class="button-main">
+                <h3>LOADER CONTROL</h3>
+                <button onclick="startLoaderAnimation()">START LOADER</button>
+                <button onclick="stopLoaderAnimation()">STOP LOADER</button>
+            </div>
+            <div class="button-main">
+                <h3>ZOOM CONTROL</h3>
+                <button onclick="startZoomAnimation()">START ZOOM</button>
+                <button onclick="stopZoomAnimation()">STOP ZOOM</button>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="inner-main image-box"></div>
+            <div class="inner-main color-box"></div>
+            <div class="inner-main loader-box">
+                <div class="loader-outer-box">
+                    <div class="loader-inner-box"></div>
+                </div>
+            </div>
+            <div class="inner-main zoom-box">
+                <div class="zoom-inner-box"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="./chp-6-task.js"></script>
 </body>
